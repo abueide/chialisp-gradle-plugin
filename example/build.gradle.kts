@@ -1,8 +1,8 @@
 plugins {
     java
-    id("com.ncorti.kotlin.gradle.template.plugin")
+    id("com.abysl.gradle.chialisp")
 }
 
-templateExampleConfig {
+chialisp {
     message.set("Just trying this gradle plugin...")
 }

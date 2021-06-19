@@ -1,9 +1,9 @@
-package com.ncorti.kotlin.gradle.template.plugin
+package com.abysl.gradle.chialisp
 
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 
-const val EXTENSION_NAME = "templateExampleConfig"
+const val EXTENSION_NAME = "chialisp"
 const val TASK_NAME = "templateExample"
 
 abstract class TemplatePlugin : Plugin<Project> {
